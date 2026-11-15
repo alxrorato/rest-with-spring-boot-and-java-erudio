@@ -1,0 +1,7 @@
+--Build da aplicação no Docker
+Em D:\dev\cursos\Java_CI_CD_AWS_GithubActions\S13_DockerizingBefore>
+docker compose up -d --build
+
+--Enviar docker image da aplicação para o DockerHub
+docker login -u <username>
+docker push alxrorato/rest-with-spring-boot-erudio
