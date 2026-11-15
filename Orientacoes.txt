@@ -5,3 +5,6 @@ docker compose up -d --build
 --Enviar docker image da aplicação para o DockerHub
 docker login -u <username>
 docker push alxrorato/rest-with-spring-boot-erudio
+
+--Criar tag:
+docker tag alxrorato/rest-with-spring-boot-erudio:latest alxrorato/rest-with-spring-boot-erudio:foo-bar
